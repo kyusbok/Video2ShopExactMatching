@@ -1,4 +1,6 @@
 # Video2Shop: Exact Matching Clothes in Videos to Online Shopping Images
+![Python badge](https://img.shields.io/static/v1?label=python&message=3.6%7C3.7%7C3.8&color=blue)
+![PyTorch badge](https://img.shields.io/static/v1?label=pytorch&message=1.6&color=%3CCOLOR%3E)
 
 An un-official PyTorch implementation of Video2Shop: [Exact Matching Clothes in Videos to Online  Shopping Images](https://openaccess.thecvf.com/content_cvpr_2017/html/Cheng_Video2Shop_Exact_Matching_CVPR_2017_paper.html)
 
@@ -9,8 +11,12 @@ An un-official PyTorch implementation of Video2Shop: [Exact Matching Clothes in 
 Conda environment is suggested.
 
 ### Requirements
-* Python 3
-* PyTorch 1.0 with Cuda
+* Python 3.6 or +
+* PyTorch 1.6 with Cuda
+* torchvision
+* tensorboardX
+* easydict
+* tqdm
 
 ## Training
 
@@ -41,4 +47,3 @@ If you use this code in your research, please use the following BibTeX entry.
   year={2017}
 }
 ```
-
